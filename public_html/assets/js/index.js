@@ -14,6 +14,7 @@
 
 // smooth scroll
 $(document).ready(function(){
+
     $(".navbar .nav-link").on('click', function(event) {
 
         if (this.hash !== "") {
@@ -23,12 +24,14 @@ $(document).ready(function(){
             var hash = this.hash;
 
             $('html, body').animate({
-                scrollTop: $(hash).offset().top
-            }, 700, function(){
-                window.location.hash = hash;
-            });
+            scrollTop: $(hash).offset().top
+        }, 1000, "swing", function(){
+            window.location.hash = hash;
+        });
         } 
     });
+
+    $('#load').hide();
 });
 
 // navbar toggle
