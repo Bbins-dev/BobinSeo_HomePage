@@ -8935,7 +8935,13 @@ button.bg-dark:focus {
 .my-0 {
   margin-bottom: 0 !important;
   font-size: 0.8rem;
-  text-align: center;
+}
+
+@media (max-width: 767.98px) {
+  .mb-0,
+  .my-0 {
+    text-align: center;
+  }
 }
 
 .ml-0,
