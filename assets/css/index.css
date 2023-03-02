@@ -8934,6 +8934,8 @@ button.bg-dark:focus {
 .mb-0,
 .my-0 {
   margin-bottom: 0 !important;
+  font-size: 0.8rem;
+  text-align: center;
 }
 
 .ml-0,
